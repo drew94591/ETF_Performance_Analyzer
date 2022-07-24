@@ -1,6 +1,6 @@
 # ETF_Performance_Analyzer
 This application analyzes an exchange-traded fund (ETF) portfolio that contains the following 4 stocks i.e. GDOT, GS, PYPL, and SQ.  The application queries the database to retrieve the open, high, low, close,
-volume and daily_returns for these stocks between 2016 to 2020.  The daily returns, annualized returns and cumulative returns are then calculated and plotted for the ETF portfolio.  The application makes use of the Voila library to convert the notebook into a web application so the data maybe accessed by other individuals within the organization.
+volume and daily_returns for these stocks between 2016 to 2020.  The daily returns, annualized returns and cumulative returns are then calculated and plotted for the ETF portfolio.  The application makes use of the Voila library to convert the notebook into a web application so the data maybe visible by others within the organization.
 
 ---
 
@@ -39,7 +39,8 @@ voila etf_analyzer.ipynb
 ```
 
 As is illustrated below:
-![ETF Performance Analyzer Prompts](images/example_prompts.gif)
+
+![ETF Performance Analyzer Prompts](images/etf_launch_voila.gif)
 
 
 ---
