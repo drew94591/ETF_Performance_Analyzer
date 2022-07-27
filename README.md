@@ -50,7 +50,7 @@ Within Jupyter Lab you should then be able to run and execute the following note
 etf_analyzer.ipynb
 ```
 
-To convert the ETF Performance Analyzer notebook into a web application you would execute the following command within Git Bash:
+To convert the ETF Performance Analyzer notebook into a web app you would execute the following command within Git Bash:
 
 ```python
 voila etf_analyzer.ipynb
