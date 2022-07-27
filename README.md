@@ -16,6 +16,24 @@ This application leverages python 3.7 with the following libraries and packages:
 
 * [numpy](https://numpy.org/) - A library that contains the fundamental package for scientific computing in Python.
 
+* [voila](https://voila.readthedocs.io/en/stable/index.html) - Converts a Jupyter Notebook into an interactive a web application.
+
+---
+
+## Installation Guide
+
+Before running the application first install the following dependencies.
+
+### Conda Libraries
+```python
+  $ conda install -c conda-forge voila
+```
+
+### Python Modules
+```python
+  $ pip install SQLAlchemy
+```
+
 ---
 
 ## Usage
